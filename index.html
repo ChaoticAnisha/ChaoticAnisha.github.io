@@ -23,7 +23,7 @@
 <meta name="twitter:title" content="Anisha Sah | Full-Stack Developer"/>
 <meta name="twitter:description" content="Full-Stack Developer from Nepal. MERN, Next.js, Flutter, PostgreSQL."/>
 <meta name="twitter:image" content="https://ChaoticAnisha.github.io/og-image.png"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Anisha Sah","url":"https://ChaoticAnisha.github.io","jobTitle":"Full-Stack Web & Mobile Developer","email":"anishashah0117@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Kathmandu","addressCountry":"NP"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Softwarica College of IT & E-Commerce"},"sameAs":["https://github.com/ChaoticAnisha","https://www.linkedin.com/in/anisha-sah-a533b8282/"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Anisha Sah","url":"https://ChaoticAnisha.github.io","jobTitle":"Full-Stack Web & Mobile Developer","email":"reachoutanisha@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Kathmandu","addressCountry":"NP"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Softwarica College of IT & E-Commerce"},"sameAs":["https://github.com/ChaoticAnisha","https://www.linkedin.com/in/anisha-sah-a533b8282/"]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Anisha Sah Portfolio","url":"https://ChaoticAnisha.github.io","author":{"@type":"Person","name":"Anisha Sah"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -759,9 +759,9 @@ footer{
       <div class="ct-head">Have a project<br>in <em>mind?</em></div>
       <p class="ct-sub">Open to freelance projects of all sizes — new builds, redesigns, API work or mobile apps. Based in Kathmandu, available remotely worldwide.</p>
       <div class="ct-links">
-        <a href="/cdn-cgi/l/email-protection#f2939c9b819a93819a939ac2c3c3c5b2959f939b9edc919d9f" class="ctlnk">
+        <a href="mailto:reachoutanisha@gmail.com" class="ctlnk">
           <div class="ctlnk-ico">✉️</div>
-          <div><div class="ctlnk-label">Email</div><div class="ctlnk-val"><span class="__cf_email__" data-cfemail="781916110b10190b1019104849494f381f15191114561b1715">[email&#160;protected]</span></div></div>
+          <div><div class="ctlnk-label">Email</div><div class="ctlnk-val">reachoutanisha@gmail.com</div></div>
           <span class="ctlnk-arr">→</span>
         </a>
         <a href="https://linkedin.com/in/anisha-sah-a533b8282" target="_blank" class="ctlnk">
@@ -777,12 +777,14 @@ footer{
       </div>
     </div>
     <form class="ct-form" action="https://formspree.io/f/mgonarpa" method="POST">
+      <input type="hidden" name="_replyto" value="reachoutanisha@gmail.com"/>
+      <input type="hidden" name="_subject" value="New Portfolio Contact — Anisha Sah"/>
       <div class="cf-row">
-        <div class="cf-g"><label class="cf-lbl">Your Name</label><input class="cf-in" type="text" placeholder="Jane Smith" required/></div>
-        <div class="cf-g"><label class="cf-lbl">Email</label><input class="cf-in" type="email" placeholder="jane@email.com" required/></div>
+        <div class="cf-g"><label class="cf-lbl">Your Name</label><input class="cf-in" type="text" name="name" placeholder="Jane Smith" required/></div>
+        <div class="cf-g"><label class="cf-lbl">Email</label><input class="cf-in" type="email" name="email" placeholder="jane@email.com" required/></div>
       </div>
-      <div class="cf-g"><label class="cf-lbl">Project Type</label><input class="cf-in" type="text" placeholder="e.g. Full-Stack App, Mobile App, REST API..."/></div>
-      <div class="cf-g"><label class="cf-lbl">Message</label><textarea class="cf-ta" placeholder="Tell me about your project — what you need, timeline, and budget..." required></textarea></div>
+      <div class="cf-g"><label class="cf-lbl">Project Type</label><input class="cf-in" type="text" name="project_type" placeholder="e.g. Full-Stack App, Mobile App, REST API..."/></div>
+      <div class="cf-g"><label class="cf-lbl">Message</label><textarea class="cf-ta" name="message" placeholder="Tell me about your project — what you need, timeline, and budget..." required></textarea></div>
       <button type="submit" class="cf-btn">Send Message &rarr;</button>
     </form>
   </div>
@@ -793,7 +795,7 @@ footer{
   <span class="f-right">Available for remote freelance worldwide</span>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 const navLinks = document.querySelectorAll('.nav-links a');
 const sections = document.querySelectorAll('section[id]');
 window.addEventListener('scroll', () => {
