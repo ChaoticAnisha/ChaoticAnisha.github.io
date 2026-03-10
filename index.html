@@ -567,7 +567,10 @@ footer{
       <div class="photo-glow"></div>
       <div class="photo-ring"></div>
       <div class="photo-mask"></div>
-      <div class="photo-avatar">
+      <img src="photo.png" alt="Anisha Sah"
+        onerror="this.style.display='none';document.getElementById('hero-fallback').style.display='flex';"
+        style="position:absolute;inset:8px;border-radius:50%;width:calc(100% - 16px);height:calc(100% - 16px);object-fit:cover;object-position:top center;z-index:2;display:block;"/>
+      <div id="hero-fallback" class="photo-avatar" style="display:none">
         <span class="avatar-letters">AS</span>
         <span class="avatar-sub">Anisha Sah</span>
       </div>
@@ -587,14 +590,17 @@ footer{
       <div class="abt-photo">
         <div class="abt-ring"></div>
         <div class="abt-mask"></div>
-        <div class="abt-init">AS</div>
+        <img src="photo.png" alt="Anisha Sah"
+          onerror="this.style.display='none';document.getElementById('about-fallback').style.display='flex';"
+          style="position:absolute;inset:7px;border-radius:50%;width:calc(100% - 14px);height:calc(100% - 14px);object-fit:cover;object-position:top center;z-index:2;display:block;"/>
+        <div id="about-fallback" class="abt-init" style="display:none">AS</div>
       </div>
       <div class="abt-name">Anisha Sah</div>
       <div class="abt-role">Full-Stack Developer</div>
       <div class="abt-socials">
         <a href="https://github.com/ChaoticAnisha" target="_blank" class="soc" title="GitHub">⚙</a>
         <a href="https://linkedin.com/in/anisha-sah-a533b8282" target="_blank" class="soc" title="LinkedIn">💼</a>
-        <a href="mailto:anishashah0117@gmail.com" class="soc" title="Email">✉</a>
+        <a href="/cdn-cgi/l/email-protection#55343b3c263d34263d343d65646462153238343c397b363a38" class="soc" title="Email">✉</a>
       </div>
     </div>
     <div class="abt-body">
@@ -753,9 +759,9 @@ footer{
       <div class="ct-head">Have a project<br>in <em>mind?</em></div>
       <p class="ct-sub">Open to freelance projects of all sizes — new builds, redesigns, API work or mobile apps. Based in Kathmandu, available remotely worldwide.</p>
       <div class="ct-links">
-        <a href="mailto:anishashah0117@gmail.com" class="ctlnk">
+        <a href="/cdn-cgi/l/email-protection#f2939c9b819a93819a939ac2c3c3c5b2959f939b9edc919d9f" class="ctlnk">
           <div class="ctlnk-ico">✉️</div>
-          <div><div class="ctlnk-label">Email</div><div class="ctlnk-val">anishashah0117@gmail.com</div></div>
+          <div><div class="ctlnk-label">Email</div><div class="ctlnk-val"><span class="__cf_email__" data-cfemail="781916110b10190b1019104849494f381f15191114561b1715">[email&#160;protected]</span></div></div>
           <span class="ctlnk-arr">→</span>
         </a>
         <a href="https://linkedin.com/in/anisha-sah-a533b8282" target="_blank" class="ctlnk">
@@ -787,7 +793,7 @@ footer{
   <span class="f-right">Available for remote freelance worldwide</span>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const navLinks = document.querySelectorAll('.nav-links a');
 const sections = document.querySelectorAll('section[id]');
 window.addEventListener('scroll', () => {
@@ -799,13 +805,4 @@ window.addEventListener('scroll', () => {
   });
 }, { passive: true });
 
-function handleForm(e) {
-  e.preventDefault();
-  const btn = e.target.querySelector('.cf-btn');
-  btn.textContent = 'Message Sent!';
-  btn.style.opacity = '.8';
-  setTimeout(() => { btn.textContent = 'Send Message \u2192'; btn.style.opacity = ''; e.target.reset(); }, 3000);
-}
-</script>
-</body>
-</html>
+fun
